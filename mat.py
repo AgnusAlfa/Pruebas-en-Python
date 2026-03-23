@@ -22,7 +22,7 @@ print(resultado)
 # LO QUE MÁS VAMOS A UTILIZAF EN PYTHON
 
 ## listas
-lista = [1, 2, 3, 4, 5, 6]  ##cuando una variable lleva corchetes es una lista
+"""lista = [1, 2, 3, 4, 5, 6]  ##cuando una variable lleva corchetes es una lista
 ##
 diccionario = {"key":"value"} #
 ##
@@ -45,10 +45,10 @@ frutas[3] = "kiwi"
 frutas[0] = "algo"
 frutas[4] = [] #lista vacia
 
-""" print(frutas[2])
+print(frutas[2])
 print(frutas[1])
 print(frutas[0])
-print(frutas[5][4][0]) """
+print(frutas[5][4][0]) 
 
 print(frutas[-1]) #Para imprimir el último elemento de la lista
 
@@ -67,9 +67,9 @@ print(frutas)
 personas = ["mara", "dona"]
 
 for i in personas:
-    print(i) 
+    print(i)
 
-##diccionario
+##diccionario"""
 
 
 ##Cuando hablamos de orientación de objeto, hablamos sobre clases
@@ -84,4 +84,45 @@ rayar
 escribir
 dibujar
 pintar"""
+
+alumnos = ["juan", "pablo"]
+numeros = [1,2,3,4,5,6,7,8,9]
+
+"""print(len(alumnos))""" #len nos das el número de elementos en una lista
+
+"""print(alumnos)
+
+
+
+for i in range(5):
+    print(1)"""
+
+
+numeros = [1, 2 , 3, 4, 5, 6, 7, 8, 9, 10]
+print(numeros)
+ordenados = sorted("numeros")
+print(ordenados)
+
+
+numero = complex(2, 3)
+x = 2 + 3
+
+
+#slices: quiere decir donde corto
+texto = "palabra"
+palindromo = "palabra"
+if palindromo == texto[::-1]:
+    print("esto es un palindromo")
+     
+print(texto[::-1])
+
+print(texto.count("a"))
+
+
+
+
+
+
+
+
 

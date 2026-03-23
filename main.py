@@ -56,5 +56,17 @@ while True:
 
 lista = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
-for i in lista:
-    print(i)
+
+
+"""for i in range(20):
+    print(1)"""
+#rango si le paso 4 me genera = 0, 1, 2, 3
+#10 = 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+
+
+numeros = [1, 2 , 3, 4, 5, 6, 7, 8, 9, 10]
+print(numeros)
+ordenados = sorted("numeros")
+print(ordenados)
+
+
